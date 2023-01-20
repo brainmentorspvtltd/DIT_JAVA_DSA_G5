@@ -32,6 +32,25 @@ class SecondClass{
 
      */
    public static void main(String args[]){
-
-   }
+      // to print on console in Java we call a print function
+      // print function is call by using out object
+      // out object is belongs to PrintStream class
+      // System is a class which creates object of out , in ,err
+      // all these object (in , out , err ) are defined static
+      // that's why they call with a class name
+         //System.out.print("Hello Java");
+         // print function print in a same line it not add any new line \n character
+         //System.out.println("Hello Java ");
+         // println - print with new line
+         System.out.println("*");
+         System.out.println("*");
+         System.out.println("*");
+         System.out.println("*");
+         System.out.println("*");
+         System.out.print("* ");
+         System.out.print("* ");
+         System.out.print("* ");
+         System.out.print("* ");
+         System.out.print("* ");
+      }
 }
